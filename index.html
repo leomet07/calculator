@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <script src = "script.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+</head>
+<body>
+  <p id = "note">Note:Your answer does not reset by default.Press AC to reset it.<br>P for plus. S for subtrct. M for multiply. D for divide. E for equals</p>
+  <div class = "calculator">
+  <p id = "full_output" class = "calculator-screen"></p>
+  <p id = "output" class = "calculator-screen"></p>
+  <div class = "calculator-keys">
+  <button id="plus"onclick="plus_onclick()"class="operator">+</button>
+  <button id="minus"onclick="minus_onclick()"class="operator">-</button>
+  <button id="multiply"onclick="multiply_onclick()" class="operator">*</button>
+  <button id="divide"onclick="divide_onclick()"class="operator">/</button>
+  <button id="seven"onclick="seven_onclick()">7</button>
+  <button id="8"onclick="eight_onclick()">8</button>
+  <button id="9"onclick="nine_onclick()">9</button>
+
+
+  <button id="4"onclick="four_onclick()">4</button>
+  <button id="5"onclick="five_onclick()">5</button>
+  <button id="6"onclick="six_onclick()">6</button>
+
+
+  <button id="1"onclick="one_onclick()">1</button>
+  <button id="2"onclick="two_onclick()">2</button>
+  <button id="3"onclick="three_onclick()">3</button>
+
+
+  <button id="0"onclick="zero_onclick()">0</button>
+  <button id ="decimal"onclick = "decimal_onclick()">.</button>
+  <button id ="reset"onclick = "reset_onclick()">AC</button>
+  <button id="equals"onclick="equals_onclick()" class = "equal-sign">=</button>
+
+
+  </div>
+  </div>
+
+
+</body>
