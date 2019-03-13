@@ -489,7 +489,7 @@ function arraymove(arr, fromIndex, toIndex) {
 
 }
 function reset_onclick(){
-  document.getElementById("output").innerHTML = "-"
+  document.getElementById("output").innerHTML = ""
   document.getElementById("full_output").innerHTML = ""
   console.log("reset")
   current = []
